@@ -33,5 +33,12 @@ namespace TestProject.Controllers
 
             return null;
         }
+
+        public ActionResult About1()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return null;
+        }
     }
 }
